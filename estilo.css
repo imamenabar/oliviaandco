@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond&display=swap');
+
+
+
+.imagen{
+  height:30vh;
+  width:50vw;
+  background:white url('https://static.thenounproject.com/png/1036927-200.png') center center no-repeat;
+  background-size:cover;
+  /* esto ultimo era para que cuando se achica la ventana, la imagen siga cubriendo todo */
+
+}
+
+/* =================================
+------------------------------------
+  The Plaza - eCommerce Template
+  Version: 1.0
+ ------------------------------------
+ ====================================*/
+
+
+/*----------------------------------------*/
+/* Template default CSS
+/*----------------------------------------*/
+
+
+body {
+	height: 100%;
+  font-family: 'EB Garamond', serif;
+  background: #FDEDEC;
+
+}
+
+h1 {
+	font-size: 25px;
+  color: #E74C3C;
+
+}
+
+h2 {
+	font-size: 21px;
+  color: #E74C3C;
+}
+
+h3 {
+	font-size: 21px;
+  color: white;
+}
+
+h4 {
+	font-size: 14px;
+}
+
+h5 {
+	font-size: 12px;
+}
+
+h6 {
+	font-size: 9px;
+}
+
+p {
+	font-size: 14px;
+	color: black;
+	line-height: 2;
+}
