@@ -12,7 +12,7 @@
     <!-- ahora viene lo de open graph, es para que al compartir en fb el link de la página, salga el titulo, imagen y descripcion-->
 <meta property="og:type" content="article">
 <meta property="og:title" content="olivia & co.">
-<meta property="og:image" content="https://imamenabar.github.io/oliviaandco/img/foto2.jpg">  <!--este link se cambia x el de la foto, ahora puse una, despues cambiar-->
+<meta property="og:image" content="https://raw.githubusercontent.com/imamenabar/oliviaandco/gh-pages/img/contacto-04.jpg">  <!--este link se cambia x el de la foto, ahora puse una, despues cambiar-->
 <meta property="og:description" content="Sitio oficial de olivia & co. Marca de ropa chilena hecha a mano para niños de 0 a 4 años. ">
 
 <!-- ahora viene lo de twitter-->
@@ -20,7 +20,7 @@
 <meta property="twitter:creator" content="@oliviaandco">
 <meta property="twitter:title" content="olivia & co.">
 <meta property="twitter:description" content="Sitio oficial de olivia & co. Marca de ropa chilena hecha a mano para niños de 0 a 4 años.">
-<meta property="twitter:image:src" content="https://imamenabar.github.io/oliviaandco/img/foto2.jpg"> <!--este link se cambia x el de la foto, ahora puse una, despues cambiar-->
+<meta property="twitter:image:src" content="https://raw.githubusercontent.com/imamenabar/oliviaandco/gh-pages/img/contacto-04.jpg"> <!--este link se cambia x el de la foto, ahora puse una, despues cambiar-->
 
 <!-- Favicon -->
 <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
@@ -73,6 +73,23 @@
           </nav>
             </header>
 
+<div class="container">
+  <div class="row">
+
+    <div class="col-sm item mr-0">
+      <div id="productos"> </div>
+    </div>
+    <div class="mr-3">
+      <img src="img/pattern-01.png">
+    </div>
+  </div>
+  </div>
+
+
+
+
+
+
       <!-- Footer section -->
   	<footer class="footer-section">
   		<div class="container">
@@ -88,6 +105,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
+    <script>
+        $.getJSON( "https://raw.githubusercontent.com/imamenabar/oliviaandco/gh-pages/catalogo.json", function( ropa ) {
+          $.each(ropa[0].prendas, function(i, detalle) {
+       $("#productos").append("<img src='" + detalle.imagen+ "' class= 'img-fluid'>").append("<h5 class =' py-4 text-center'>" + detalle.titulo + "</h5>");
+});
+});
+        </script>
         </body>
 
 </html>
