@@ -1,0 +1,40 @@
+[
+   {
+      "catalogo":"ceroados",
+      "prendas":[
+         {
+            "titulo":"Chaleco tejido con gorro",
+            "imagen":"https://raw.githubusercontent.com/imamenabar/oliviaandco/gh-pages/img/ceroados1.jpg"
+         },
+         {
+            "titulo":"Vestido Olivia",
+            "imagen":"https://raw.githubusercontent.com/imamenabar/oliviaandco/gh-pages/img/ceroados2.jpg"
+         },
+         {
+            "titulo":"Cintillo tejido",
+            "imagen":"https://raw.githubusercontent.com/imamenabar/oliviaandco/gh-pages/img/ceroados3.jpg"
+         },
+         {
+            "titulo":"Vestido blanco y celeste",
+            "imagen":"https://raw.githubusercontent.com/imamenabar/oliviaandco/gh-pages/img/ceroados4.jpg"
+         }
+      ]
+   },
+   {
+      "catalogo":"dosacuatro",
+      "prendas":[
+         {
+            "titulo":"Polera a cuadros manga larga",
+            "imagen":"https://raw.githubusercontent.com/imamenabar/oliviaandco/gh-pages/img/dosacuatro1.jpg"
+         },
+         {
+            "titulo":"Jardinera cuadrillé",
+            "imagen":"https://github.com/imamenabar/oliviaandco/raw/gh-pages/img/dosacuatro2.jpg"
+         },
+         {
+            "titulo":"Camisa blanca",
+            "imagen":"https://raw.githubusercontent.com/imamenabar/oliviaandco/gh-pages/img/dosacuatro3.jpg"
+         }
+      ]
+   }
+]
